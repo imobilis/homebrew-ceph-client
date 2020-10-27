@@ -1,8 +1,8 @@
 class CephClient < Formula
   desc "Ceph client tools and libraries"
   homepage "https://ceph.com"
-  url "https://github.com/ceph/ceph.git", :using => :git, :tag => "v13.2.2", :revision => "02899bfda814146b021136e9d8e80eba494e1126"
-  version "mimic-13.2.2"
+  url "https://github.com/ceph/ceph.git", :using => :git, :tag => "v13.2.10", :revision => "02899bfda814146b021136e9d8e80eba494e1126"
+  version "mimic-13.2.10"
 
   bottle do
     root_url "https://github.com/zeichenanonym/homebrew-ceph-client/releases/download/mimic-13.2.2/"
